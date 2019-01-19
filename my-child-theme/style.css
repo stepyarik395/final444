@@ -1,0 +1,8 @@
+/*
+Theme Name: my-child-theme
+Description: Дочерняя тема для темы Twenty Ten 
+Author: Ваше имя
+Template: unite
+*/
+
+@import url("../unite/style.css");

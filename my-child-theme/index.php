@@ -61,7 +61,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 			
 		<?php
 		$custom_fields = get_post_custom($post->ID);
-		$my_custom_field = $custom_fields['cost_session'];
+		$my_custom_field = $custom_fields['cost'];
 		foreach ( $my_custom_field as $key => $value )
 			$key = "<label>Цена за билет</label>";
 		echo $key . " => " . $value . "<br />";
@@ -70,7 +70,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 
 		<?php
 		$custom_fields = get_post_custom($post->ID);
-		$my_custom_field = $custom_fields['date_output'];
+		$my_custom_field = $custom_fields['date-in'];
 		foreach ( $my_custom_field as $key => $value )
 			$key = "<i class='fas fa-table'></i>Дата выхода в прокат";
 		echo $key . " => " . $value . "<br />";
@@ -126,7 +126,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 			
 		<?php
 		$custom_fields = get_post_custom($post->ID);
-		$my_custom_field = $custom_fields['cost_session'];
+		$my_custom_field = $custom_fields['cost'];
 		foreach ( $my_custom_field as $key => $value )
 			$key = "<label>Цена за билет</label>";
 		echo $key . " => " . $value . "<br />";
@@ -137,7 +137,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 
 		<?php
 		$custom_fields = get_post_custom($post->ID);
-		$my_custom_field = $custom_fields['date_output'];
+		$my_custom_field = $custom_fields['date-in'];
 		foreach ( $my_custom_field as $key => $value )
 			$key = "<i class='fas fa-table'></i>Дата выхода в прокат";
 		echo $key . " => " . $value . "<br />";
@@ -196,7 +196,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 			
 		<?php
 		$custom_fields = get_post_custom($post->ID);
-		$my_custom_field = $custom_fields['cost_session'];
+		$my_custom_field = $custom_fields['cost'];
 		foreach ( $my_custom_field as $key => $value )
 			$key = "<label>Цена за билет</label>";
 		echo $key . " => " . $value . "<br />";
@@ -205,7 +205,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 
 		<?php
 		$custom_fields = get_post_custom($post->ID);
-		$my_custom_field = $custom_fields['date_output'];
+		$my_custom_field = $custom_fields['date-in'];
 		foreach ( $my_custom_field as $key => $value )
 			$key = "<i class='fas fa-table'></i>Дата выхода в прокат";
 		echo $key . " => " . $value . "<br />";
@@ -263,7 +263,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 			
 		<?php
 		$custom_fields = get_post_custom($post->ID);
-		$my_custom_field = $custom_fields['cost_session'];
+		$my_custom_field = $custom_fields['cost'];
 		foreach ( $my_custom_field as $key => $value )
 			$key = "<label>Цена за билет</label>";
 		echo $key . " => " . $value . "<br />";
@@ -272,7 +272,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 
 		<?php
 		$custom_fields = get_post_custom($post->ID);
-		$my_custom_field = $custom_fields['date_output'];
+		$my_custom_field = $custom_fields['date-in'];
 		foreach ( $my_custom_field as $key => $value )
 			$key = "<i class='fas fa-table'></i>Дата выхода в прокат";
 		echo $key . " => " . $value . "<br />";

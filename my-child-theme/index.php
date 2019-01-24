@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+
 <?php
 /**
  * The main template file.
@@ -44,7 +43,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 		$cur_terms = get_the_terms( $post->ID, 'country' );
 		if( is_array( $cur_terms ) ){
 			foreach( $cur_terms as $cur_term ){
-				echo '<a href="'. get_term_link( (int)$cur_term->term_id, $cur_term->taxonomy ) .'">'. $cur_term->name .'</a>'.'&#32;'.'<img src ="wp-content/themes/unite/inc/img/usa.png">'.'<br>';
+				echo '<a href="'. get_term_link( (int)$cur_term->term_id, $cur_term->taxonomy ) .'">'. $cur_term->name .'</a>'.'&#32;'.'<img src ="wp-content/themes/my-child-theme/inc/img/usa.png">'.'<br>';
 			}
 		}
 		?>
@@ -109,7 +108,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 		$cur_terms = get_the_terms( $post->ID, 'country' );
 		if( is_array( $cur_terms ) ){
 			foreach( $cur_terms as $cur_term ){
-				echo '<a href="'. get_term_link( (int)$cur_term->term_id, $cur_term->taxonomy ) .'">'. $cur_term->name .'</a>'.'&#32;'.'<img class ="iconm" src ="wp-content/themes/unite/inc/img/usa.png">'.'<br>';
+				echo '<a href="'. get_term_link( (int)$cur_term->term_id, $cur_term->taxonomy ) .'">'. $cur_term->name .'</a>'.'&#32;'.'<img class ="iconm" src ="wp-content/themes/my-child-theme/inc/img/usa.png">'.'<br>';
 			}
 		}
 		?>
@@ -179,7 +178,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 		$cur_terms = get_the_terms( $post->ID, 'country' );
 		if( is_array( $cur_terms ) ){
 			foreach( $cur_terms as $cur_term ){
-				echo '<a href="'. get_term_link( (int)$cur_term->term_id, $cur_term->taxonomy ) .'">'. $cur_term->name .'</a>'.'&#32;'.'<img class ="iconm" src ="wp-content/themes/unite/inc/img/1234.jpeg">'.'<br>';
+				echo '<a href="'. get_term_link( (int)$cur_term->term_id, $cur_term->taxonomy ) .'">'. $cur_term->name .'</a>'.'&#32;'.'<img class ="iconm" src ="wp-content/themes/my-child-theme/inc/img/1234.jpeg">'.'<br>';
 			}
 		}
 		?>
@@ -246,7 +245,7 @@ $reviews = new WP_Query(array('post_type' => 'films', 'page_id' => 42));
 		$cur_terms = get_the_terms( $post->ID, 'country' );
 		if( is_array( $cur_terms ) ){
 			foreach( $cur_terms as $cur_term ){
-				echo '<a href="'. get_term_link( (int)$cur_term->term_id, $cur_term->taxonomy ) .'">'. $cur_term->name .'</a>'.'&#32;'.'<img class ="iconm" src ="wp-content/themes/unite/inc/img/canada.png">'.'<br>';
+				echo '<a href="'. get_term_link( (int)$cur_term->term_id, $cur_term->taxonomy ) .'">'. $cur_term->name .'</a>'.'&#32;'.'<img class ="iconm" src ="wp-content/themes/my-child-theme/inc/img/canada.png">'.'<br>';
 			}
 		}
 		?>
